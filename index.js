@@ -18,18 +18,18 @@ for( const btn of allBtn){
         
         const seatLeft = document.getElementById('cart-count');
         seatLeft.innerText = seatsCount;
-        // seats card done
+        
 
         countUp = countUp + 1;
         const count =document.getElementById('count');
         count.innerText = countUp;
 
-        // seats up section done
+        
 
         btn.style.backgroundColor = "#1DD100";
         btn.style.color ="white";
 
-        // btn color done
+     
 
         const SetNumber = btn.innerText;
         const ticketShow =document.getElementById('ticket-container');
@@ -48,24 +48,27 @@ for( const btn of allBtn){
         p2.innerText ="550";
         let price = p2.innerText;
 
-        // append time to
+        
 
         li.appendChild(p);
         li.appendChild(p1);
         li.appendChild(p2);
         ticketShow.appendChild(li);
 
-        // ticket show done
-
         totalPrice =totalPrice + parseInt(price);
-        
 
         const totalPriceElement =document.getElementById('total-price');
         totalPriceElement.innerText = totalPrice;
 
-
     })
 }
+
+
+
+
+
+
+
 
 
 const apply =document.getElementById('Apply');
@@ -83,11 +86,18 @@ apply.addEventListener('click',function(){
         const discountPrice =document.getElementById('discountPrice');
         discountPrice.innerText=grandTotal;
         
-        // document.getElementById('input-field').value ='';
+       
+
+
+
+
+
+
         
         const inputDiv = document.getElementById('input-div');
         inputDiv.classList.add('hidden');
         
+
     }
     else if( convertCoupon === "COUPLE20"){
         const grandPriceElement = document.getElementById('grand');
@@ -106,6 +116,9 @@ apply.addEventListener('click',function(){
 
     
     }
+
+
+
 
     else{
         alert("Invalid Your Coupon Code");
@@ -156,7 +169,6 @@ function  play(){
     const successContainer= document.getElementById('success');
     successContainer.classList.remove('hidden');
     
-    // console.log(homeScreen.classList);
 }
 
 
