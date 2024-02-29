@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap');
+
+.inter{
+    font-family: "Inter";
+}
+.raleway{
+    font-family: "Raleway";
+}
+
+.border-radius{
+    border-radius: 88px 88px 0px 0px;
+}
